@@ -19,13 +19,26 @@ header{
 }
 .nav{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 
 }
 .nav a{
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+#projects-menu{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    background-color: rgb(51, 50, 50);
+    padding: 2rem;
+    transition: ease-in-out .5s;
+
 }
 
 .hero{
@@ -113,6 +126,9 @@ footer h3{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px
+}
+.hidden{
+    display: none;
 }
 @media only screen and (max-width: 768px) {
     html{
