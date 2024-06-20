@@ -3,15 +3,16 @@ const homeRunsBtn = document.getElementById('homeRunsBtn');
 const visitorScore = document.getElementById('visitorScore');
 const homeScore = document.getElementById('homeScore');
 
-var visitorRunsScored = 0;
-var homeRunsScored = 0;
+let visitorRunsScored = 0;
+let homeRunsScored = 0;
 
-visitorRuns.addEventListener('click', () => {
-    VisitorRunsScored++;
+visitorRunsBtn.addEventListener('click', () => {
+    visitorRunsScored++;
     visitorScore.innerText = visitorRunsScored;
 });
 
-homeRuns.addEventListener('click', () => {
+homeRunsBtn.addEventListener('click', () => {
     homeRunsScored++;
     homeScore.innerText = homeRunsScored;
+    console.log(homeRunsScored);
 });
