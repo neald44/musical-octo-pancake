@@ -229,6 +229,22 @@ background-image: linear-gradient(0deg, rgba(255, 255, 255, .2) 25%, transparent
     animation-iteration-count: infinite;
     opacity: 0.0;
 }
+.controls{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+}
+.controls button{
+border: none;
+background-color: gold;
+color: black;
+font-size: 1.5rem;
+padding: 1rem;
+border-radius: 10px;
+}
 
 @-webkit-keyframes pulsate {
     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
